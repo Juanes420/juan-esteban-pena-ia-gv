@@ -1,0 +1,4 @@
+model,best_cv_acc,cv_std,train_acc,best_params
+decision_tree,0.9022,0.0586,0.9982,"{'model__max_depth': 4, 'model__min_samples_leaf': 1}"
+logistic_regression,0.9791,0.0277,1.0,{'model__C': 1}
+knn,0.9579,0.0405,0.9648,"{'model__n_neighbors': 7, 'model__weights': 'uniform'}"
